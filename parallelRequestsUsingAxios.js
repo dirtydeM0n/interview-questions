@@ -26,4 +26,4 @@ const runMe = async () => {
 //   console.log(data);
 };
 
-runMe();
+runMe().catch(err => console.error(err))
